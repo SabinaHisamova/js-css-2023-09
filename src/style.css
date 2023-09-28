@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1650px;
+}
+
+body {
+  margin-left: 130px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 10px 0px;
+  padding: 0px 30px 40px 30px;
+  text-align: center;
+}
+
+.header-middle {
+  width: 1600px;
+}
+
+.header-top-nav-list {
+  margin-top: 20px;
+  height: 50px;
+  padding: 30px 60px;
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+
+.main {
+  margin-left: 50px;
+}
+
+.title {
+  margin-left: 50px;
+  max-width: 1012px;
+  text-align: center;
+  background-color: #e7e6e6;
+  border-radius: 6px;
+  padding: 5px 100px;
+}
+
+.rubric-page {
+  margin: 0 auto;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rubric-page-left {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 10px;
+  max-width: 450px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.rubric-page-left-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rubric-page-left-text {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.rubric-page-right {
+  max-width: 450px;
+  margin-top: 10px;
+  margin-left: 90px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.rubric-page-right-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rubric-page-right-text {
+  margin-top: 20px;
+}
+
+.rubric-page-aside {
+  width: 370px;
+  margin-left: 100px;
+  margin-right: 50px;
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  text-align: left;
+}
+
+.rubric-page-aside-title {
+  font-weight: bold;
+  text-align: center;
+  max-width: 400px;
+  font-style: oblique;
+  margin-bottom: 15px;
+}
+
+.rubric-page-aside-announcement {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+}
+
+.announcement-title-text {
+  text-align: left;
+  margin-left: 15px;
+  text-align: left;
+  font-style: oblique;
+}
+
+.footer-wrapper {
+  width: 1500px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contacts {
+  width: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-contact-list {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-menu-list {
+  margin: 0 auto;
+  height: 40px;
+  padding: 5px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.footer-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-p {
+  text-align: center;
+}
